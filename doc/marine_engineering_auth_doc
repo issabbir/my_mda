@@ -1,0 +1,53 @@
+URL
+--------
+http://192.168.78.10:5326/
+http://210.4.76.133:5326/
+
+210920-092007-0377
+
+Doc Master
+---------------
+Name: Md. Abu Sufian
+Username: 000326
+Password: 123
+
+Deputy Chief Engineer
+----------
+Name: S. M. HABIBULLAH AZIM
+Username: 000230
+Password: 123
+
+XEN
+----------
+Name: Mohammad Mohiuddin
+Username: 000450
+Password: 123
+
+
+SSAEN
+----------
+Name: MOAZEM HOSSAIN MOLLAH
+Username: 012019
+Password: 123
+
+SAEN
+----------
+Name: Mohammad Afsar Uddin
+Username: 000504
+Password: 123
+
+
+Step	Process Description	User
+1	Request for vessel repair 	Doc Master
+2	Request approved. If the request is in auto schedule then it should be auto approved	XEN
+3	Assign SAEN for inspection schedule 	XEN
+4	Generate inspection report as  job list	SAEN
+5	Approve inspection report	XEN
+6	Assign Slipway	SAEN
+7	Assign Workshop for job list	SAEN
+8	Make requisition for parts and task list of each job (Take suggestion from workshop in-charge)	SAEN/Workshop in-charge
+9	Verify requisition 	XEN
+10	Receive parts as requisitioned from store	XEN
+11	Collect parts as requisitioned from XEN	SAEN
+12	Update task, used parts information and job 	SAEN
+13	Verify completed job. Generate job completed certificate. Send email/sms notification	XEN

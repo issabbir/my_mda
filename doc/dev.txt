@@ -1,0 +1,31 @@
+This document is for developer pre-dev
+
+#Template link:
+https://preview.themeforest.net/item/frest-clean-minimal-bootstrap-admin-dashboard-template/full_screen_preview/24656841
+
+
+composer dump-autoload
+php artisan cache:clear
+php artisan config:clear
+php artisan view:clear
+php artisan route:clear
+
+#Stop server running on specific port
+sudo kill $(sudo lsof -t -i:port_number) //For linux user
+
+MDA
+http://192.168.78.10:5326/
+http://210.4.76.133:5326/
+
+php artisan serve --host=192.168.78.10 --port=5326
+php artisan serve --host=210.4.76.133 --port=5326
+
+
+Command to kill/stop serve:
+ps -ef | grep "$PWD/server.php"
+
+[root@dev-deeds brta_arch]# root      6817  6813  0 17:14 ?        00:00:00 /usr/bin/php -S 192.168.78.10:5000 /var/www/brta_arch/server.php
+bash: root: command not found...
+[root@dev-deeds brta_arch]# root      7032  6973  0 17:17 pts/2    00:00:00 grep --color=auto /var/www/brta_arch/server.php
+
+kill 6817

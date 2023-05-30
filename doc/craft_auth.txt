@@ -1,0 +1,28 @@
+
+
+Users for Craft Module
+1. OPERATOR
+    User: 000504
+    Pass: 123
+
+2. CRAFT SECTION
+    User: 000298
+    Pass: 123
+
+3. VESSEL INSPECTOR
+    User: 000450
+    Pass: 123
+
+4. DOC MASTER
+    User: 000326
+    Pass: 123
+
+
+
+
+
+Process flow of Craft
+---------------------------------
+Process flow for fuel consumption
+-------------------------------
+1)

@@ -1,0 +1,117 @@
+------------------------------------
+Admin user
+username: admin
+password: 123
+
+Report
+http://localhost:8000/invoice-pilotages/pilotage/20092012000014655
+
+URL
+--------
+http://192.168.78.10:5326/
+http://210.4.76.133:5326/
+
+===================================
+Marine Automation
+===================================
+
+Inspector
+---------------
+Name: MD. DELOWAR HOSSAIN PATWARY
+Username: 012408
+Password: 123
+
+Harbour Master
+---------------
+Name:  MD. JAHIRUL ISLAM
+Username: 000298
+Password: 123
+
+Operator
+---------------
+Name: SHAHNAJ AKTER
+Username: 023024
+Password: 123
+
+
+
+2-211114-041139-2015
+===================================
+Marine Workshop
+===================================
+
+Doc Master
+---------------
+Name: Md. Abu Sufian
+Username: 000326
+Password: 123
+
+Deputy Chief Engineer
+----------
+Name: S. M. HABIBULLAH AZIM
+Username: 000230
+Password: 123
+
+XEN
+----------
+Name: Mohammad Mohiuddin
+Username: 000450
+Password: 123
+
+
+SSAEN(project)
+----------
+Name: Mohammad Afsar Uddin
+Username: 000504
+Password: 123
+
+SSAEN
+----------
+Name: MD. JAMAL UDDIN
+Username: 000506
+Password: 123
+
+SAEN
+----------
+Name:  MD. MOHASIN NUR
+Username: 008349
+Password: 123
+
+
+ASW1/ASW2
+-----------------------
+Name: MD. HABIBUR RAHMAN
+Username: 013612
+Password: 123
+
+Name: SYED REFAYET HAMIM
+Username: 000537
+Password: 123
+
+SSAEN(Maintenance)
+----------
+Name: MD. ARIFUR RAHMAN
+Username: 000503
+Password: 123
+
+SAE(Maintenance)
+----------
+Name: KAJI JULEKHA AKHTER
+user name: 020570
+Password: 123
+
+
+
+Process flow of Marine Workshop
+---------------------------------
+1. Doc master make a request.
+2. XEN approve  the request. Assign Sub assistant engineer (SAEN)
+3. SAEN make job list
+4. XEN edit approve job list
+5. SAEN silpway assign
+6. SAEN workshop assign, and make order of workshop on job list.
+7. SAEN make requsition for each job for a workshop
+8. XEN approve approve. receive product from store.
+9. SAEN collect product from XEN
+10. SAEN set used quantity, scrap quantity and click on submit/complete and submit button on a job.
+11. XEN can make certificate for all completed jobs of all workshop.

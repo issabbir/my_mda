@@ -1,0 +1,23 @@
+559	Dashboard				29		home.dashboard	/dashboard	1
+560	Settings				29				99
+561	Slip Type			560	29		collection-slip-type	/collection-slip-type	1
+562	CPA Vessel Type			560	29		cpa-vessel-type	/cpa-vessel-type	2
+563	PS Schedule Type			560	29		ps-schedule-type	/ps-schedule-type	3
+566	Pilotage Service				29				2
+567	SM Service				29				3
+568	Cash Collection				29				4
+569	Vessels				29				5
+570	Reports				29				6
+571	Pilotage Type			560	29		pilotage-type	/pilotage-type	
+572	Thugs Type			560	29		thug-type	/thug-type	
+573	Vessel Conditions			560	29		vessel-condition	/vessel-condition	
+574	Vessel Working Types			560	29		vessel-working-type	/vessel-working-type	
+575	Rate Configuration			560	29				
+576	Certificate Entry			566	29				
+577	Verify Certificate			566	29				
+578	License Duty Entry			567	29				
+579	Inspector Approval			567	29				
+580	Slip Generation			568	29				
+581	Local Vessel			569	29		local-vessel	/local-vessel	
+582	CPA Vessel			569	29		cpa-vessel	/cpa-vessel	
+583	Tug Registrations			569	29		tug-registration	/tug-registration	
